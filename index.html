@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <title>Personal Portfolio</title>
     <meta charset="UTF-8">
-    <link rel = "#" href = "#">
-
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
     <header>
-        <h1 style="background-color: lavenderblush; text-align: center; border: 2px solid black;">Personal Portfolio</h1>
+        <h1>My Portfolio</h1>
+        <img src="photo.jpg.png" alt="My Photo" class="profile-img">
         <nav>
-            <a href = "#">Name</a>
-            <a href = "#">Number</a>
-            <a href = "#">Address</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section id = "About me">
-        <h2>This is my portfolio</h2>
-        <p>Hello, I am Anwesha Basnet from Herald College. I am an It student with experience in Html, Css, JavaScript and PHP.</p>
+
+   
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello, I am Anwesha Basnet and I am currently a student at Herald College Kathmandu.This is my first portfolio website created as a part of my learning journey. I’m a beginner web developer learning HTML, CSS, and JavaScript.</p>
+
     </section>
 
-    <main>
-        
+    
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <h3>Project 1: Movie App</h3>
+            <p>This is my first simple web page created using HTML and CSS.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Project 2 : Weather App</h3>
+            <p>Another small project demonstrating layout and basic styling.</p>
+        </div>
+    </section>
+
+  
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Message</label>
+            <textarea placeholder="Write your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+  
+    <footer>
+        <p>© 2025 My Portfolio | All Rights Reserved</p>
+    </footer>
 
 </body>
+</html>
